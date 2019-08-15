@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="MyProject:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/MyProject_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="MyProject/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="MyProject" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="c3p0-0.9.5.2" />
+          <element id="library" level="project" name="log4j-1.2.17" />
+          <element id="library" level="project" name="mariadb-java-client-2.3.0" />
+          <element id="library" level="project" name="mchange-commons-java-0.2.11" />
+          <element id="library" level="project" name="protobuf-java-3.6.1" />
+          <element id="library" level="project" name="taglibs-standard-impl-1.2.5" />
+          <element id="library" level="project" name="taglibs-standard-spec-1.2.5" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
